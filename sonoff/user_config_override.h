@@ -1,7 +1,7 @@
 /*
   user_config_override.h - user configuration overrides user_config.h for Sonoff-Tasmota
 
-  Copyright (C) 2017  Theo Arends
+  Copyright (C) 2018  Theo Arends
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -16,6 +16,9 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
+#ifndef _USER_CONFIG_OVERRIDE_H_
+#define _USER_CONFIG_OVERRIDE_H_
 
 /*****************************************************************************************************\
  * ATTENTION: - Changes to most PARAMETER defines will only override flash settings if you change
@@ -38,3 +41,4 @@
 //#endif
 //#define STA_SSID1              "yourssid1"
 
+#endif  // _USER_CONFIG_OVERRIDE_H_
